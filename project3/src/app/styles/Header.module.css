@@ -1,0 +1,40 @@
+.headerMain {
+  position: static;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #f5f6f9;
+}
+.headerDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+.navUl {
+  display: flex;
+}
+.navLink {
+  color: #032342;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+.btnDiv {
+  display: flex;
+  align-items: center;
+}
+.fa-circle-user {
+  font-size: 25px;
+  color: #385182;
+}
+.btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin-left: 20px;
+  font-size: 18px;
+
+  background-color: #385182;
+  color: white;
+  font-weight: 600;
+}
