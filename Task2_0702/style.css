@@ -1,3 +1,284 @@
-nav ul {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  width: 1340px;
+  margin: 0 auto;
+}
+.row {
   display: flex;
+  flex-wrap: wrap;
+}
+.w-6 {
+  width: 50%;
+}
+.w-4 {
+  width: 33.33%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.headerDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+.navUl {
+  display: flex;
+}
+.navLink {
+  color: #032342;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+.btnDiv {
+  display: flex;
+  align-items: center;
+}
+.fa-circle-user {
+  font-size: 25px;
+  color: #385182;
+}
+.btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin-left: 20px;
+  font-size: 18px;
+
+  background-color: #385182;
+  color: white;
+  font-weight: 600;
+}
+
+/* breadCrumb */
+.breadCrumbMain {
+  background-color: #e6e9ef;
+  height: 325px;
+}
+.breadCrumb {
+  position: relative;
+}
+.breadImg {
+  position: absolute;
+  left: 50%;
+  top: 210px;
+  transform: translate(-50%);
+}
+.breadTitle {
+  position: relative;
+}
+.hadingArea {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: #fff;
+}
+.hadingArea > h3 {
+  font-size: 45px;
+  padding-bottom: 15px;
+}
+.hadingArea > span {
+  font-size: 25px;
+}
+.fa-circle {
+  color: white;
+  font-size: 12px;
+  margin: 0 12px;
+}
+
+/* career */
+.careerDiv {
+  background-color: #e6e9ef;
+  margin-top: 200px;
+  padding: 100px 0;
+}
+.title {
+  color: #5073b9;
+  font-size: 20px;
+}
+.SubTitle {
+  font-size: 40px;
+  color: #385182;
+  margin: 8px 0 18px;
+}
+.SubTitle span {
+  color: #1e3358;
+}
+.text {
+  font-size: 17px;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+.formOuter {
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 20px;
+}
+.formInput {
+  width: 46%;
+  padding: 18px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  margin: 10px;
+  font-size: 18px;
+
+  background-color: #e6e9ef;
+}
+.formTextArea {
+  display: block;
+  width: 96%;
+  padding: 20px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  margin: 10px;
+  font-size: 20px;
+
+  background-color: #e6e9ef;
+}
+.submitBtn {
+  padding: 15px 40px;
+  border-radius: 15px;
+  margin: 20px 20px;
+  font-size: 18px;
+
+  background-color: #385182;
+  color: white;
+  font-weight: 600;
+}
+.careerImg {
+  height: 100%;
+  width: 100%;
+}
+
+/* newsletter */
+.newsletterDiv {
+  background-color: #e6e9ef;
+}
+.newsletter {
+  text-align: center;
+  background-color: #385182;
+  padding: 3rem 25rem;
+  border-radius: 18px;
+  margin-bottom: 150px;
+}
+.newsletter > h2 {
+  color: #fff;
+  font-size: 45px;
+  margin-bottom: 1.3rem;
+}
+.newsletter > span {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 800;
+}
+.newsletter > p {
+  color: #fff;
+  font-size: 16px;
+  margin: 0.8rem 0 1.8rem;
+}
+.newsletter > input {
+  color: #fff;
+  font-size: 16px;
+  padding: 0.8rem;
+  border-radius: 10px;
+  background-color: #5073b9;
+  border-color: #fff;
+}
+.newsletter > input::placeholder {
+  color: #fff;
+}
+.newsletter > button {
+  padding: 1rem 1.4rem;
+  color: #5073b9;
+  font-size: 14px;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+/* footer */
+footer {
+  background-color: #032342;
+  color: #fff;
+  padding: 80px 0;
+}
+.footLeft {
+  padding-right: 90px;
+}
+.footTitle {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.footText {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.footSocIcon {
+  margin-right: 20px;
+  font-size: 25px;
+}
+.footCenter {
+  padding-right: 90px;
+}
+.footSubTitle {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.footCallIcon {
+  position: relative;
+  padding-left: 40px;
+  font-size: 18px;
+  margin: 15px 0;
+
+  display: block;
+}
+.footIconPosi2 {
+  position: absolute;
+  left: 2px;
+  top: 6px;
+  color: #385182;
+  background-color: #fff;
+  padding: 6px 7px;
+  border-radius: 50%;
+}
+.footIconPosi {
+  position: absolute;
+  left: 2px;
+  top: -3px;
+  color: #385182;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+}
+.footCenter a {
+  color: #fff;
+  display: inline-block;
+  padding: 10px 15px 10px 0;
+  font-size: 16px;
+}
+.linkLi {
+  font-size: 17px;
+  margin-bottom: 14px;
+}
+
+.lineBottom {
+  border: 2px solid white;
+  margin: 40px 0;
+}
+.copyrifhted {
+  text-align: center;
+  font-size: 20px;
 }

@@ -4,24 +4,157 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task2</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   </head>
+
   <body>
     <header>
-      <img src="./images/logo.png" alt="lodding..." />
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Medical Services</li>
-          <li>Career</li>
-          <li>News</li>
-          <li>Contact</li>
-        </ul>
-        <div>
-          <i></i>
-          <button>Make Appointment</button>
+      <div class="container">
+        <div class="headerDiv">
+          <img src="./images/logo.png" alt="lodding..." />
+          <nav>
+            <ul class="navUl">
+              <li class="navLink">Home</li>
+              <li class="navLink">About</li>
+              <li class="navLink">Medical Services</li>
+              <li class="navLink">Career</li>
+              <li class="navLink">News</li>
+              <li class="navLink">Contact</li>
+            </ul>
+          </nav>
+          <div class="btnDiv">
+            <i class="fa-regular fa-circle-user"></i>
+            <button class="btn">Make Appointment</button>
+          </div>
         </div>
-      </nav>
+      </div>
     </header>
+
+    <section class="breadCrumbMain">
+      <div class="container">
+        <div class="breadCrumb">
+          <div class="breadImg">
+            <div class="breadTitle">
+              <img src="./images/Rectangle4376.png" alt="" />
+              <div class="hadingArea">
+                <h3>Career</h3>
+                <span>Home <i class="fa-solid fa-circle"></i> Career</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="careerDiv">
+      <div class="container">
+        <div class="career">
+          <div class="row">
+            <div class="w-6">
+              <span class="title">CAREER</span>
+              <h2 class="SubTitle"><span>Leave A </span>Massage</h2>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati necessitatibus a nam magni corrupti, praesentium optio
+                quas neque fuga voluptas beatae enim, sint excepturi veritatis quod debitis odio. Eius, qui. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Obcaecati necessitatibus a nam magni corrupti, praesentium optio quas neque fuga voluptas
+                beatae enim, sint excepturi veritatis quod debitis odio. Eius, qui.
+              </p>
+
+              <form class="formOuter">
+                <input class="formInput" type="text" placeholder="Name" />
+                <input class="formInput" type="email" placeholder="Email" />
+                <input class="formInput" type="tel" placeholder="Phone number" />
+                <input class="formInput" type="email" placeholder="Experience" />
+                <input class="formInput" type="file" />
+                <input class="formInput" type="text" placeholder="Designation" />
+
+                <textarea class="formTextArea" placeholder="Massage" rows="6"></textarea>
+                <input class="submitBtn" type="submit" />
+              </form>
+            </div>
+            <div class="w-6">
+              <img class="careerImg" src="./images/Group1171275139.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletterDiv">
+      <div class="container">
+        <div class="newsletter">
+          <h2>Newsletter</h2>
+          <span>Get Smarter About No-Code</span>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit libero a minus facere! Ducimus repudiandae quae, fugiat</p>
+          <input placeholder="Enter Your Email" type="email" />
+          <button>Subscribe</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="w-4">
+            <div class="footLeft">
+              <h4 class="footTitle">Dhameliya Kidney Hospital</h4>
+              <p class="footText">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor enim laboriosam eius voluptate ipsam, error fugit praesentium
+                aut modi. Rerum obcaecati deleniti laboriosam nesciunt nisi
+              </p>
+              <i class="footSocIcon fa-brands fa-facebook"></i>
+              <i class="footSocIcon fa-brands fa-instagram"></i>
+              <i class="footSocIcon fa-brands fa-linkedin"></i>
+            </div>
+          </div>
+          <div class="w-4">
+            <div class="footCenter">
+              <h5 class="footSubTitle">Get in Touch</h5>
+              <p class="footText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur omnis adipisci</p>
+
+              <span class="footCallIcon"><i class="footIconPosi fa-solid fa-phone"></i> +91 261 2490001</span>
+              <span class="footCallIcon"
+                ><i class="footIconPosi2 fa-solid fa-location-dot"></i> 402, Aayush Doctor House, Lal Darwaja, Station Road, SURAT 395002
+                -GUJ INDIA</span
+              >
+
+              <a href="#">Get DIrection <i class="fa-solid fa-arrow-right-long"></i></a>
+              <br />
+              <a href="#">Our Branches <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+          </div>
+          <div class="w-4">
+            <div class="footerRight">
+              <div class="row">
+                <div class="w-6">
+                  <h6 class="footSubTitle">Madical Services</h6>
+                  <ul>
+                    <li class="linkLi">Kidney Stone</li>
+                    <li class="linkLi">Prostate</li>
+                    <li class="linkLi">Uro Oncology</li>
+                    <li class="linkLi">Paediatric Urology</li>
+                    <li class="linkLi">Femail Urology</li>
+                  </ul>
+                </div>
+                <div class="w-6">
+                  <h6 class="footSubTitle">Quick Links</h6>
+                  <ul>
+                    <li class="linkLi">Home</li>
+                    <li class="linkLi">About Us</li>
+                    <li class="linkLi">Medical Services</li>
+                    <li class="linkLi">Testimonials</li>
+                    <li class="linkLi">Contect Us</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lineBottom"></div>
+        <p class="copyrifhted">Non Copyrighted @ 2022 Desig and uloded by Dhameliya Kidney Hospital</p>
+      </div>
+    </footer>
   </body>
 </html>
