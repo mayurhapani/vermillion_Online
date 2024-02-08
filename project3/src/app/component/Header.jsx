@@ -22,7 +22,7 @@ const Header = () => {
             </ul>
           </nav>
           <div className={Style.btnDiv}>
-            <i class="ri-map-pin-user-line text-[2.5rem] text-[#385182]"></i>
+            <i class="ri-map-pin-user-line me-2 text-[2.5rem] text-[#385182]"></i>
             <Button text="Mack Appointment" />
           </div>
         </div>

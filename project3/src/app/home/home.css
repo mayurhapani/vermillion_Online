@@ -1,0 +1,170 @@
+#hero {
+  width: 100%;
+  background: #f5f6f9;
+  position: relative;
+}
+
+.highlight {
+  color: #6285ca;
+}
+.hero_title {
+  font-size: 54px;
+  color: #032342;
+}
+#hero p {
+  font-size: 17px;
+  color: #888888;
+}
+
+.get_appointment_btn {
+  border: 1px solid #385182;
+  color: #fff;
+  background-color: #6285ca;
+  border-radius: 12px;
+  padding: 8px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.get_appointment_btn:hover {
+  background: #385182;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .get_appointment_btn {
+    margin: 0 15px 0 0;
+    padding: 8px 20px;
+  }
+}
+
+.learn_more_btn {
+  border: 1px solid #032342;
+  color: #385182;
+  border-radius: 12px;
+  padding: 8px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.learn_more_btn:hover {
+  background: #6285ca;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .learn_more_btn {
+    margin: 0 15px 0 0;
+    padding: 8px 20px;
+  }
+}
+
+.hero_doctor img {
+  width: 50%;
+}
+
+.main_box {
+  position: relative;
+}
+
+.loose_aerrow {
+  position: absolute;
+  top: 40%;
+  left: 80%;
+}
+.hospi {
+  position: absolute;
+  top: 80%;
+  left: 75%;
+}
+
+.box_1 {
+  border-radius: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+  padding: 30px 0;
+  background-color: #6285ca;
+}
+
+.box_2 {
+  border-radius: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+  padding: 30px 0;
+  background-color: #cfd5e1;
+}
+
+.box_3 {
+  border-radius: 16px;
+  margin-bottom: 16px;
+  padding-top: 40px;
+  text-align: center;
+  background-color: #6285ca;
+}
+
+.box_4 {
+  border-radius: 16px;
+  margin-bottom: 16px;
+  padding: 30px 0;
+  background-color: #385182;
+  background-image: url(../../../public/line_bg.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.box_5 {
+  border-radius: 16px;
+  margin-bottom: 16px;
+  height: 355px;
+  margin-top: 25px;
+  position: relative;
+  background-color: #385182;
+}
+
+.box_6 {
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+.grid_img_2 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 250px / 2);
+  width: 250px;
+}
+.grid_img_3 {
+  width: 100%;
+}
+
+.doc_4_data h2 {
+  color: #fff;
+  font-size: 20px;
+}
+.doc_4_data span {
+  font-size: 16px;
+  color: #888888;
+}
+
+.mk_apmt_btn {
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 12px;
+  padding: 8px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.mk_apmt_btn:hover {
+  background: #6285ca;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .mk_apmt_btn {
+    margin: 0 15px 0 0;
+    padding: 8px 20px;
+  }
+}
