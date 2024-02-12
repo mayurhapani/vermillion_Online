@@ -20,8 +20,14 @@
   font-size: 20px;
   padding: 10px 20px;
 }
+.navLink2 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px 20px;
+}
 .btnDiv {
-  display: flex;
+  /* display: flex; */
   align-items: center;
 }
 .fa-circle-user {

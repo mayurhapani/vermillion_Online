@@ -10,7 +10,7 @@ const Testimonial = () => {
       <div className="container mx-auto">
         <div className="text-center mb-14">
           <span className="text-[#6285CA] text-xl font-bold uppercase">testimonial</span>
-          <h3 className="text-[#032342] text-xl font-bold text-6xl mt-5">
+          <h3 className="text-[#032342] font-bold text-6xl mt-5">
             What Our <span className="text-[#385182] text-6xl">Patient Says</span>
           </h3>
         </div>

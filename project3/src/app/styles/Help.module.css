@@ -1,0 +1,38 @@
+.formOuter {
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 20px;
+}
+.formInput {
+  width: 46%;
+  padding: 18px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  margin: 10px;
+  font-size: 18px;
+
+  background-color: #e6e9ef;
+}
+.formTextArea {
+  display: block;
+  width: 96%;
+  padding: 20px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  margin: 10px;
+  font-size: 20px;
+
+  background-color: #e6e9ef;
+}
+.submitBtn {
+  padding: 15px 40px;
+  border-radius: 15px;
+  margin: 20px 20px;
+  font-size: 18px;
+
+  background-color: #385182;
+  color: white;
+  font-weight: 600;
+}

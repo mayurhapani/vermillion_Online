@@ -1,0 +1,80 @@
+.c_us_title {
+  color: #6285ca;
+}
+
+.c_us_headline {
+  font-size: 40px;
+  color: #032342;
+}
+
+.c_us_headline_mini {
+  font-size: 20px;
+  color: #032342;
+}
+
+#c_us p {
+  font-size: 20px;
+  color: #888888;
+}
+
+.blur_star {
+  /* position: absolute; */
+  bottom: 14%;
+  right: 19%;
+}
+
+.c_us_btn {
+  border: 1px solid #fff;
+  color: #fff;
+  background: #6285ca;
+  border-radius: 12px;
+  padding: 8px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.c_us_btn:hover {
+  background: #385182;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .c_us_btn {
+    margin: 0 15px 0 0;
+    padding: 8px 20px;
+  }
+}
+
+.c_us_left {
+  position: relative;
+}
+
+.prtnr_collabs {
+  position: absolute;
+  top: 12%;
+  left: -5%;
+  background-color: #fff;
+  width: 160px;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.hpy_clnt {
+  margin-left: -16px;
+}
+
+.c_us_ul {
+  display: flex;
+  font-size: 18px;
+  color: #888888;
+}
+
+.c_us_ul ul {
+  margin-right: 16px;
+}
+
+.c_us_srvs {
+  cursor: pointer;
+}

@@ -1,0 +1,45 @@
+.newsletterDiv {
+  background-color: #e6e9ef;
+}
+.newsletter {
+  text-align: center;
+  background-color: #385182;
+  padding: 3rem 25rem;
+  border-radius: 18px;
+  margin-bottom: 150px;
+}
+.newsletter > h2 {
+  color: #fff;
+  font-size: 45px;
+  margin-bottom: 1.3rem;
+}
+.newsletter > span {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 800;
+}
+.newsletter > p {
+  color: #fff;
+  font-size: 16px;
+  margin: 0.8rem 0 1.8rem;
+}
+.newsletter > input {
+  color: #fff;
+  font-size: 16px;
+  padding: 0.8rem;
+  border-radius: 10px;
+  background-color: #5073b9;
+  border-color: #fff;
+}
+.newsletter > input::placeholder {
+  color: #fff;
+}
+.newsletter > button {
+  padding: 0.6rem 1.4rem;
+  color: #5073b9;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  margin-left: 10px;
+  background-color: white;
+}

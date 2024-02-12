@@ -1,0 +1,72 @@
+.footerMain {
+  background-color: #032342;
+  color: #fff;
+  padding: 80px 0;
+}
+.footLeft {
+  padding-right: 90px;
+}
+.footTitle {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.footText {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.footSocIcon {
+  margin-right: 20px;
+  font-size: 25px;
+}
+.footCenter {
+  padding-right: 90px;
+}
+.footSubTitle {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.footCallIcon {
+  position: relative;
+  padding-left: 40px;
+  font-size: 18px;
+  margin: 15px 0;
+
+  display: block;
+}
+.footIconPosi2 {
+  position: absolute;
+  left: 2px;
+  top: 6px;
+  color: #385182;
+  background-color: #fff;
+  padding: 6px 7px;
+  border-radius: 50%;
+}
+.footIconPosi {
+  position: absolute;
+  left: 2px;
+  top: -3px;
+  color: #385182;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+}
+.footCenter a {
+  color: #fff;
+  display: inline-block;
+  padding: 10px 15px 10px 0;
+  font-size: 16px;
+}
+.linkLi {
+  font-size: 17px;
+  margin-bottom: 14px;
+}
+
+.lineBottom {
+  border: 2px solid white;
+  margin: 40px 0;
+}
+.copyrifhted {
+  text-align: center;
+  font-size: 20px;
+}

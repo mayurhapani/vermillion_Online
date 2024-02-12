@@ -1,0 +1,82 @@
+#our_doctor{
+
+}
+.od_left_data{
+    /* padding: 80px 80px 80px 300px; */
+    padding: 70px 0;
+    margin-top: 120px;
+    background-color: #385182;
+    border-radius: 16px;
+}
+.od_title{
+    color: #6285ca;
+}
+
+.od_left_data h4 {
+    color: #fff;
+}
+
+.od_left_data p {
+    font-size: 16px;
+    color: #888888;
+}
+
+.od_headline {
+    font-size: 40px;
+    color: #032342;
+}
+.odld_1{
+    position: relative;
+}
+.od_1{
+    position: absolute;
+    bottom: -70px;
+    left: 10%;
+}
+
+.od_learn_more_btn {
+    border: 1px solid #f5f6f9;
+    color: #fff;
+    /* background-color: white; */
+    border-radius: 12px;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+    margin-left: 12px;
+}
+
+.od_learn_more_btn:hover {
+    background: #6285ca;
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .od_learn_more_btn {
+        margin: 0 15px 0 0;
+        padding: 8px 20px;
+    }
+}
+
+.od_right_bottom_title{
+    color: #6285ca;
+    margin: 16px 0;
+    text-align: center;
+    letter-spacing: 8px;
+}
+
+.peginetion{
+    display: inline-block;
+    font-size: 28px;
+    text-align: center;
+    margin-right: 16px;
+    padding: 15px 22px;
+    background-color: #6285ca;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.peginetion:hover {
+    background: #385182;
+    color: #fff;
+}
