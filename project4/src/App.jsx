@@ -67,7 +67,7 @@ function App() {
       <textarea
         value={text}
         onChange={handelChange}
-        className="text-white w-full p-4 text-xl"
+        className="text-white w-full p-4 text-xl bg-gray-600"
         id="text"
         rows="10"
         placeholder="Enter Text Here"
