@@ -17,11 +17,11 @@ export default function Login() {
               <div>
                 <div className="form-group">
                   <label className="form-control-label">USERNAME</label>
-                  <input type="text" className="form-control" />
+                  <input type="text" className="form-control inputBlack" />
                 </div>
                 <div className="form-group">
                   <label className="form-control-label">PASSWORD</label>
-                  <input type="password" className="form-control" />
+                  <input type="password" className="form-control inputBlack" />
                 </div>
 
                 <div className="col-lg-12 loginbttm">
