@@ -9,17 +9,18 @@ export default function MyBlog() {
         <div className="col-4">
           <div className="mt-5 ">
             <div className="">
-              <div className="form-floating mb-3">
+              <h3>Add Your Blogs</h3>
+              <div className="form-floating my-3">
                 <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com" />
                 <label htmlFor="floatingInput">Email address</label>
               </div>
               <div className="form-floating">
-                <textarea rows="3" className="form-control" id="floatingContant" placeholder="Enter Content" />
+                <textarea rows="5" className="form-control" id="floatingContant" placeholder="Enter Content"></textarea>
                 <label htmlFor="floatingContant">Enter Contant</label>
               </div>
-              <div className="mt-3">
-                <Button variant="primary">Submit</Button>
-              </div>
+            </div>
+            <div className="mt-3">
+              <Button variant="primary">Submit</Button>
             </div>
           </div>
         </div>

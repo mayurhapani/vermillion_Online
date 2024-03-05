@@ -4,7 +4,9 @@ import UserCard from "./UserCard";
 export default function App() {
   return (
     <div className="container">
-      <UserCard />
+      <div className="my-5">
+        <UserCard />
+      </div>
     </div>
   );
 }
