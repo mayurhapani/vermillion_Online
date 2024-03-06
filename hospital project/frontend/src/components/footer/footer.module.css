@@ -1,0 +1,19 @@
+.footerOuter {
+  background-image: url("../../assets//images/footerBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer {
+  padding: 150px 0 100px 0;
+}
+.socIcon {
+  display: flex;
+  padding: 0;
+}
+.socIcon i {
+  color: #fff;
+  font-size: 26px;
+}
+.socIcon li {
+  margin-right: 15px;
+}

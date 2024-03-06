@@ -4,3 +4,6 @@ section {
 .text {
   color: #727272;
 }
+li {
+  list-style: none;
+}

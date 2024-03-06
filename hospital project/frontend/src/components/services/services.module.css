@@ -1,0 +1,35 @@
+.srvs_heading{
+    font-size: 48px;
+}
+
+.serv_card{
+    background-image: linear-gradient(rgba(1, 116, 188, 0.022), white );
+}
+
+h2{
+    font-size: 24px;
+    margin: 1.5rem 0;
+}
+
+p{
+    font-size: 16px;
+}
+
+.serv_banner h2{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.serv_banner h3{
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.serv_banner h3 span{
+    color: #0173BC;
+    font-size: 36px;
+}
+
+.serv_banner p{
+    font-size: 16px;
+}
