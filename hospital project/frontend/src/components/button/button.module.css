@@ -1,0 +1,50 @@
+.btn {
+  width: 216px;
+  height: 51px;
+  border-radius: 6px;
+  border: none;
+  background-color: #fea12d;
+}
+.btn_span {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.btn_arrow {
+  font-size: 1.25rem;
+  margin-top: -4px;
+  margin-left: 15px;
+  color: #fff;
+}
+.colorWhite {
+  border: 1px solid #fff !important;
+}
+.colorWhite span,
+.colorWhite i {
+  color: #fff !important;
+}
+.bg_color {
+  width: 216px;
+  height: 51px;
+  border: 1px solid #fea12d;
+  border-radius: 6px;
+  background: transparent;
+}
+.span_color {
+  color: #fea12d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.text_color {
+  font-size: 16px;
+  margin-left: 8px;
+  color: #fea12d;
+}
+
+.d_none {
+  display: none;
+}

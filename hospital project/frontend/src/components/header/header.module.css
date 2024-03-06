@@ -1,0 +1,13 @@
+.headerOuter {
+  z-index: 10;
+  width: 100%;
+}
+
+.header {
+  background-color: #fff;
+}
+
+.header_li {
+  font-size: 18px;
+  font-weight: 500;
+}
