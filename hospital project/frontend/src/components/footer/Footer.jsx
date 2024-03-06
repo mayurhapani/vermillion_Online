@@ -36,11 +36,11 @@ export default function Footer() {
               </ul>
             </div>
             <div className="col-8">
-              <div className="text-light">
+              <div className="text-light mt-5">
                 <div className="row">
-                  <div className="col-3">
-                    <ul>
-                      <li>Quick Links</li>
+                  <div className="col-3 mt-4">
+                    <ul className={Style.footerLink}>
+                      <li className="mb-5">Quick Links</li>
                       <li>About Us</li>
                       <li>Hospitals</li>
                       <li>Specialities</li>
@@ -48,20 +48,26 @@ export default function Footer() {
                       <li>Contact Us</li>
                     </ul>
                   </div>
-                  <div className="col-4">
-                    <ul>
-                      <li>Contact Info</li>
-                      <li>Phone No.</li>
-                      <li>(+91) 1800 1200 111</li>
-                      <li>Email</li>
-                      <li>asg@eyehospitals.com</li>
+                  <div className="col-4 mt-4">
+                    <ul className={Style.footerLink1}>
+                      <li className="mb-5">Contact Info</li>
+
+                      <li className="text ms-5 position-relative">
+                        <i className={`ri-phone-line ${Style.icon1}`}></i> Phone No.
+                      </li>
+                      <li className="ms-5 mb-5">(+91) 1800 1200 111</li>
+                      <li className="text ms-5 position-relative">
+                        <i className={`ri-mail-line ${Style.icon1}`}></i>Email
+                      </li>
+                      <li className="ms-5">asg@eyehospitals.com</li>
                     </ul>
                   </div>
                   <div className="col-5">
                     <ul>
                       <li>Contact Info</li>
                       <li>
-                        <gmp-map center="37.4220656,-122.0840897" zoom="10" map-id="DEMO_MAP_ID"></gmp-map>
+                        <div id="map"></div>
+                        {/* <gmp-map center="37.4220656,-122.0840897" zoom="10" map-id="DEMO_MAP_ID"></gmp-map> */}
                       </li>
                     </ul>
                   </div>

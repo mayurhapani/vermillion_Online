@@ -17,3 +17,16 @@
 .socIcon li {
   margin-right: 15px;
 }
+.footerLink li {
+  margin-bottom: 15px;
+}
+.footerLink1 li {
+  margin-bottom: 10px;
+}
+
+.icon1 {
+  position: absolute;
+  left: -40px;
+  color: #fea12d;
+  font-size: 20px;
+}
