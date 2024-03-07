@@ -2,9 +2,10 @@
   background-image: url("../../assets//images/footerBg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 200px;
 }
 .footer {
-  padding: 150px 0 100px 0;
+  padding: 250px 0 100px 0;
   position: relative;
 }
 .socIcon {
@@ -30,4 +31,17 @@
   left: -40px;
   color: #fea12d;
   font-size: 20px;
+}
+
+.copyRight {
+  border-top: 1px solid #fff;
+  /* color: #fff; */
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+.map {
+  height: 50px;
+  width: 100%;
 }

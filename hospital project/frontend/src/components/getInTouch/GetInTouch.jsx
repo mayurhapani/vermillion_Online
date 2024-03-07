@@ -4,7 +4,7 @@ import Buttonn from "../button/Button";
 
 const GetInTouch = () => {
   return (
-    <section>
+    <div className={Styel.getInTouchOuter}>
       <div className="container">
         <div className={`${Styel.get_in_touch} d-flex rounded-4`}>
           <div className="col">
@@ -20,7 +20,7 @@ const GetInTouch = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

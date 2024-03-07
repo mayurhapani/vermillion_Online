@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 import logo from "../../assets/images/footerLogo.png";
 import GetInTouch from "../getInTouch/GetInTouch";
+import MapComponent from "../googlemap/GoogleMap";
 
 export default function Footer() {
   return (
@@ -68,14 +69,17 @@ export default function Footer() {
                     <ul>
                       <li>Contact Info</li>
                       <li>
-                        <div id="map"></div>
-                        {/* <gmp-map center="37.4220656,-122.0840897" zoom="10" map-id="DEMO_MAP_ID"></gmp-map> */}
+                        <MapComponent />
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+          <div className={Style.copyRight}>
+            <span className="text">© Copyright 2023 Laversab Inc. All Rights Reserved.</span>
+            <span className="text">Teleconsultation | Terms and Conditions | Cancellation and Refund Policy</span>
           </div>
         </div>
       </div>
