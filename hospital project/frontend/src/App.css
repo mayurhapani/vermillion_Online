@@ -7,3 +7,6 @@ section {
 li {
   list-style: none;
 }
+.subTitle {
+  font-size: 48px;
+}

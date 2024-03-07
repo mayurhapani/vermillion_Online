@@ -1,17 +1,17 @@
-.abt_heading{
-    font-size: 48px;
+.abt_heading {
+  font-size: 48px;
 }
 
-.abt_disc{
-    font-size: 18px;
+.abt_disc {
+  font-size: 18px;
 }
 
-#about{
-    position: relative;
+#about {
+  position: relative;
 }
 
-.bg_vector{
-    position: absolute;
-    top: 10%;
-    left: 0;
+.bg_vector {
+  position: absolute;
+  top: 10%;
+  left: 0;
 }

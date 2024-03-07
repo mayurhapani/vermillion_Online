@@ -21,6 +21,9 @@
 .colorWhite {
   border: 1px solid #fff !important;
 }
+.colorOrange {
+  border: none !important;
+}
 .colorWhite span,
 .colorWhite i {
   color: #fff !important;

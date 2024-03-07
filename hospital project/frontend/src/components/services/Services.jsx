@@ -8,7 +8,7 @@ import img4 from "../../assets/images/card_4.png";
 import img5 from "../../assets/images/card_5.png";
 import img6 from "../../assets/images/card_6.png";
 import S_card from "./S_card";
-import Buttonn from "../button/Button";
+import Button from "../button/Button";
 
 const serviceCard = [
   { img: img1, title: "Cataract", disc: "Cataract Opacify the eye’s natural lens and limit your ability to see clearly." },
@@ -37,7 +37,7 @@ const Services = () => {
           ))}
         </div>
         <div className="text-center">
-          <Buttonn btn_title={"VIEW ALL SERVICES"} />
+          <Button btn_title={"VIEW ALL SERVICES"} />
         </div>
         <div className={`${Style.serv_banner} d-flex p-5 mt-5 shadow shadow-4 rounded-4`}>
           <div className="w-3 px-5 border-end border-2">
