@@ -8,6 +8,8 @@ import Google from "./components/googleReview/Google";
 import Services from "./components/services/Services";
 import PatientReview from "./components/patientReview/PatientReview";
 import Footer from "./components/footer/Footer";
+import OurTeam from "./components/ourTeam/OurTeam";
+import LatestNews from "./components/latestNews/LatestNews";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <Services />
       <Google />
       <PatientReview />
+      <OurTeam />
+      <LatestNews />
       <Footer />
     </>
   );

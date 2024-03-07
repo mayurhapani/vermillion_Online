@@ -18,7 +18,7 @@ const AboutUs = () => {
             </div>
             <div className="col-6">
               <div className="h-100 d-flex flex-column gap-3 justify-content-center ps-5">
-                <SectionTitle section_title={"About Us"} />
+                <SectionTitle sectionTitle={"About Us"} />
                 <h2 className={`${s.abt_heading}`}>Know more about ASG</h2>
                 <p className={`${s.abt_disc}`}>
                   ASG Eye Hospitals is a chain of super speciality eye hospitals in India. It offers a comprehensive range of eye care

@@ -1,0 +1,17 @@
+.get_in_touch{
+    background-color: #0173BC;
+    padding: 80px;
+}
+.get_in_touch h2{
+    font-size: 44px;
+    color: #FFF;
+}
+.get_in_touch p{
+    font-size: 20px;
+    color: #FFF;
+}
+.contact i,
+.contact h3{
+    font-size: 22px;
+    margin-bottom: 0;
+}

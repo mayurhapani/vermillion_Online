@@ -3,12 +3,14 @@ import Style from "./footer.module.css";
 import { Link } from "react-router-dom";
 
 import logo from "../../assets/images/footerLogo.png";
+import GetInTouch from "../getInTouch/GetInTouch";
 
 export default function Footer() {
   return (
     <footer className={Style.footerOuter}>
       <div className="container">
         <div className={Style.footer}>
+          <GetInTouch />
           <div className="row">
             <div className="col-4">
               <img className="mt-5" src={logo} alt="" />

@@ -1,0 +1,17 @@
+.our_team_heading{
+    font-size: 44px;
+}
+
+.our_team_disc{
+    font-size: 18px;
+}
+
+#our_team{
+    position: relative;
+}
+
+.bg_vector{
+    position: absolute;
+    top: 10%;
+    left: 0;
+}
