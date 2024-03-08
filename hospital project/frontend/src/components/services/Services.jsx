@@ -23,36 +23,44 @@ const serviceCard = [
   { img: img6, title: "Q-Lasik Laser", disc: "Q-LASIK, also known as Quick LASIK is an innovative and minimally invasive proc..." },
 ];
 
-const Services = () => {
+const Services = ({ BottomPart, TopPart }) => {
   return (
     <section>
       <div className="container">
-        <div className="text-center">
-          <Section_title section_title={"what we do"} />
-          <h2 className={`${Style.srvs_heading} mt-4 mb-5`}>Services and Specialities</h2>
-        </div>
+        {TopPart && (
+          <>
+            <div className="text-center">
+              <Section_title section_title={"what we do"} />
+              <h2 className={`${Style.srvs_heading} mt-4 mb-5`}>Services and Specialities</h2>
+            </div>
+          </>
+        )}
         <div className="row gx-3 gy-3">
           {serviceCard.map((data) => (
             <S_card img={data.img} title={data.title} disc={data.disc} />
           ))}
         </div>
-        <div className="text-center">
-          <Button btn_title={"VIEW ALL SERVICES"} />
-        </div>
-        <div className={`${Style.serv_banner} d-flex p-5 mt-5 shadow shadow-4 rounded-4`}>
-          <div className="w-3 px-5 border-end border-2">
-            <h2>17 Years of Excellence</h2>
-          </div>
-          <div className="w-8 px-4">
-            <h3>
-              <span>80 Lakh+</span> Successfully Treated Eyes
-            </h3>
-            <p>
-              Being one of the best eye hospital Chain in India, ASG Eye Hospital provides state-of-the-art Ophthalmology services in
-              Cataract, Retina, Squint, Glaucoma, Cornea, Oculoplasty
-            </p>
-          </div>
-        </div>
+        {BottomPart && (
+          <>
+            <div className="text-center">
+              <Button btn_title={"VIEW ALL SERVICES"} />
+            </div>
+            <div className={`${Style.serv_banner} d-flex p-5 mt-5 shadow shadow-4 rounded-4`}>
+              <div className="w-3 px-5 border-end border-2">
+                <h2>17 Years of Excellence</h2>
+              </div>
+              <div className="w-8 px-4">
+                <h3>
+                  <span>80 Lakh+</span> Successfully Treated Eyes
+                </h3>
+                <p>
+                  Being one of the best eye hospital Chain in India, ASG Eye Hospital provides state-of-the-art Ophthalmology services in
+                  Cataract, Retina, Squint, Glaucoma, Cornea, Oculoplasty
+                </p>
+              </div>
+            </div>
+          </>
+        )}
       </div>
     </section>
   );

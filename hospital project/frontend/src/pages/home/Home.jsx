@@ -16,7 +16,7 @@ export default function Home() {
       <Hero />
       <Awards />
       <AboutUs tabName={"ABOUT US"} isbutton={true} />
-      <Services />
+      <Services BottomPart={true} TopPart={true} />
       <Google />
       <PatientReview />
       <OurTeam />

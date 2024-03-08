@@ -8,7 +8,7 @@ import Footer from "../../components/footer/Footer";
 export default function AboutPage() {
   return (
     <>
-      <Hero2 PageTitle={"About Us"} />
+      <Hero2 PageTitle={"About Us"} PageName={"About Us"} />
       <AboutUs tabName={"ABOUT US"} isbutton={false} direction={"flex-row-reverse"} />
       <AboutUs tabName={"OUR MISSION"} isbutton={false} />
 
