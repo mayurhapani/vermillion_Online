@@ -10,10 +10,107 @@
   height: 100%;
   width: 100%;
 }
+.eyeDetial {
+  padding: 0 30px;
+}
 .eyeDetial h2 {
   margin-bottom: 45px;
 }
 .eyeDetial p {
   margin: 15px 0 35px;
   font-size: 20px;
+}
+.textSize {
+  font-size: 20px;
+}
+.Diab3outer {
+  background-color: #effaff;
+}
+.diab3Card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+  border-radius: 10px;
+
+  box-shadow: 5px 5px 5px #d7d7d7, -5px -5px 5px #e9e9e9;
+
+  background-color: #fff;
+}
+.diab3Card h5 {
+  color: #0173bc;
+  font-size: 60px;
+  padding: 0 32px;
+}
+.diab3Card p,
+.Diab4inner h4 {
+  font-size: 24px;
+}
+
+.Diab4inner h4 {
+  margin: 48px 0;
+  line-height: 48px;
+}
+.Diab4CardOuter {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Diab4Card {
+  width: 20%;
+  padding: 0 10px;
+}
+.Diab4Card img {
+  width: 100%;
+}
+.Diab4Card p {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.diab5Card {
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #d7d7d7, -5px -5px 5px #e9e9e9;
+  background-color: #fff;
+  margin: 24px 12px;
+}
+.diab5Card img {
+  width: 75px;
+  height: 75px;
+}
+.diab5Card h3 {
+  margin-bottom: 15px;
+}
+.diab5Card p {
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.aordian {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+
+  box-shadow: 5px 5px 5px #d7d7d7, -5px -5px 5px #e9e9e9;
+  background-color: #effaff;
+}
+.aordian h3 {
+  font-size: 24px;
+}
+.aordian i {
+  font-size: 36px;
+}
+
+.aordianSub {
+  /* display: none; */
+}
+.aordianSub p {
+  padding: 15px 25px;
+  background-color: #effaff;
+
+  margin: 15px 0 50px;
+  font-size: 20px;
+  line-height: 32px;
 }
