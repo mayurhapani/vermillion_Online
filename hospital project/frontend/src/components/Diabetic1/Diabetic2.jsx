@@ -2,14 +2,12 @@ import React from "react";
 
 import Style from "./Diabetic.module.css";
 
-import eyeImg from "../../assets/images/eyeImg.png";
-
-export default function Diabetic2() {
+export default function Diabetic2({ img, revers }) {
   return (
     <section>
       <div className="container">
         <div className="">
-          <div className="row">
+          <div className={`row ${revers && `flex-row-reverse`}`}>
             <div className="col-7">
               <div className={Style.eyeDetial}>
                 <h2>Causes of Diabetic Retinopathy:</h2>
@@ -36,7 +34,7 @@ export default function Diabetic2() {
               </div>
             </div>
             <div className="col-5">
-              <img className={Style.eyeImg} src={eyeImg} alt="" />
+              <img className={Style.eyeImg} src={img} alt="" />
             </div>
           </div>
         </div>
