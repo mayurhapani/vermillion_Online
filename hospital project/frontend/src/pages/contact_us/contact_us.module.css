@@ -1,0 +1,59 @@
+.form_head h2 {
+  font-size: 20px;
+  line-height: 1.5;
+}
+.form_box {
+  width: 1100px;
+  margin: auto;
+}
+
+label {
+  font-size: 16px;
+}
+
+.review_form input,
+.review_form select,
+.review_form textarea {
+  font-size: 16px;
+  padding: 18px 24px;
+  background-color: #f5fafc;
+}
+
+.form_group {
+  margin-bottom: 24px;
+}
+
+#contact_us {
+  padding-bottom: 300px;
+}
+
+#contact_card {
+  padding: 60px 80px;
+  border-radius: 12px;
+  background-color: #f5fafc;
+  position: absolute;
+  width: 100%;
+  top: -40%;
+}
+.contact_head h2 {
+  font-size: 48px;
+}
+.cntct_card_box {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+}
+.cntct_card_box i {
+  font-size: 48px;
+  color: #0173bc;
+}
+.cntct_card_box h2 {
+  font-size: 22px;
+  color: #0173bc;
+}
+.cntct_card_box p {
+  font-size: 18px;
+  font-weight: 500;
+}

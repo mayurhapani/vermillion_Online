@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
-const MapComponent = () => {
+const MapComponent = ({ isFullSize }) => {
   const mapContainerRef = useRef(null);
 
   useEffect(() => {
@@ -20,7 +20,7 @@ const MapComponent = () => {
     };
   }, []); // Empty dependency array ensures this effect runs only once
 
-  return <div ref={mapContainerRef} style={{ width: "100%", height: "220px" }} />;
+  return <div ref={mapContainerRef} style={{ width: "100%", height: isFullSize ? "400px" : "220px" }} />;
 };
 
 export default MapComponent;

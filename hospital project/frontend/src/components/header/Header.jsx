@@ -10,7 +10,7 @@ const Header = () => {
         <img width="270px" height="47px" src={logo} alt="Logo" />
         <ul className="d-flex list-unstyled mb-0">
           <li className={`${Style.header_li} py-2 px-3`}>
-            <a className="text-decoration-none text-dark" href="">
+            <a className="text-decoration-none text-dark" href="/">
               Home
             </a>
           </li>
@@ -25,17 +25,17 @@ const Header = () => {
             </a>
           </li>
           <li className={`${Style.header_li} py-2 px-3`}>
-            <a className="text-decoration-none text-dark" href="/specialities">
+            <a className="text-decoration-none text-dark" href="/services">
               Specialities
             </a>
           </li>
           <li className={`${Style.header_li} py-2 px-3`}>
-            <a className="text-decoration-none text-dark" href="/blog">
+            <a className="text-decoration-none text-dark" href="/news">
               Blog
             </a>
           </li>
           <li className={`${Style.header_li} py-2 px-3`}>
-            <a className="text-decoration-none text-dark" href="/contact">
+            <a className="text-decoration-none text-dark" href="/contactUs">
               Contact
             </a>
           </li>

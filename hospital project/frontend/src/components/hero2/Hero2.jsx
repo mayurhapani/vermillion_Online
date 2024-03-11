@@ -1,7 +1,7 @@
 import React from "react";
 import Style from "./hero2.module.css";
 
-export default function Hero2({ PageTitle, PageName, isSubName, subPageName }) {
+export default function Hero2({ PageTitle, PageName, isSubName, subPageName, isPara, para }) {
   return (
     <section className={Style.hero2Outer}>
       <div className="container">
@@ -18,6 +18,8 @@ export default function Hero2({ PageTitle, PageName, isSubName, subPageName }) {
                 </>
               )}
             </span>
+
+            {isPara && <p>{para.para}</p>}
           </div>
         </div>
       </div>

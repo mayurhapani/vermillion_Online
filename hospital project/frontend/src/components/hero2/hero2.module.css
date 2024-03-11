@@ -12,9 +12,16 @@
   background-image: url("../../assets/images/heroRight.png");
 }
 .title {
-  font-size: 48px;
+  font-size: 56px;
   font-weight: 700;
 }
 .textLight {
   color: #a9a8a8;
+}
+.hero2Outer p {
+  margin: 50px 40px 0;
+}
+.hero2Outer span,
+.hero2Outer p {
+  font-size: 20px;
 }

@@ -1,0 +1,28 @@
+.hosp_head h2 {
+  font-size: 48px;
+}
+.hosp_div_main {
+  padding: 2rem;
+}
+.hosp_map {
+  border-radius: 16px;
+  background-color: #f5fafd;
+}
+.hosp_search_by_code {
+  width: 30%;
+}
+.hosp_search_by_name {
+  width: 68%;
+}
+.hosp_connect_icon {
+  color: #0173bc;
+}
+.hosp_connect_data {
+  font-size: 14px;
+  color: #545454;
+  font-weight: 500;
+}
+.CardTitle {
+  font-size: 28px;
+  margin-top: 20px;
+}
