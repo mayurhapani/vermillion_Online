@@ -1,7 +1,7 @@
 import React from "react";
 import s from "./news.module.css";
 
-const Most_read_blog_cards = ({ img, disc, sub_img, dr_name, blog_date }) => {
+const MostReadBlogCards = ({ img, disc, sub_img, dr_name, blog_date }) => {
   return (
     <>
       <div className="col-4">
@@ -26,4 +26,4 @@ const Most_read_blog_cards = ({ img, disc, sub_img, dr_name, blog_date }) => {
   );
 };
 
-export default Most_read_blog_cards;
+export default MostReadBlogCards;

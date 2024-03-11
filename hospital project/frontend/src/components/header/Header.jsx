@@ -6,7 +6,7 @@ import Buttonn from "../button/Button";
 const Header = () => {
   return (
     <header className={`${Style.headerOuter} px-5 mt-3 position-fixed top-0`}>
-      <div className={`${Style.header} d-flex justify-content-between align-items-center py-3 px-5 rounded-4`}>
+      <div className={`${Style.header} container d-flex justify-content-between align-items-center py-3 px-5 rounded-4`}>
         <img width="270px" height="47px" src={logo} alt="Logo" />
         <ul className="d-flex list-unstyled mb-0">
           <li className={`${Style.header_li} py-2 px-3`}>

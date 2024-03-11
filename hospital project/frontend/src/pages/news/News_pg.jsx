@@ -3,8 +3,8 @@ import s from "./news.module.css";
 
 import Hero2 from "../../components/hero2/Hero2";
 import LatestNews from "../../components/latestNews/LatestNews";
-import Laser_Surgery_Card from "./Laser_Surgery_Card";
-import Most_read_blog_cards from "./Most_read_blog_cards";
+import LaserSurgeryCard from "./Laser_Surgery_Card";
+import MostReadBlogCards from "./Most_read_blog_cards";
 import Footer from "../../components/footer/Footer";
 
 import adv_surgery_1 from "../../assets/images/adv_surgery_1.png";
@@ -86,7 +86,7 @@ const blog_cards_Data = [
   },
 ];
 
-const News_pg = () => {
+const NewsPg = () => {
   return (
     <>
       <Hero2 PageTitle={"News & Events"} PageName={"Blog"} />
@@ -101,7 +101,7 @@ const News_pg = () => {
             {
               // sec_one_card.map((item) => item)
               laser_cards_Data.map((item, index) => (
-                <Laser_Surgery_Card
+                <LaserSurgeryCard
                   key={index}
                   img={item.img}
                   sub_img={item.sub_img}
@@ -121,7 +121,7 @@ const News_pg = () => {
           </div>
           <div className="row gy-4">
             {blog_cards_Data.map((item, index) => (
-              <Most_read_blog_cards
+              <MostReadBlogCards
                 key={index}
                 img={item.img}
                 sub_img={item.sub_img}
@@ -138,4 +138,4 @@ const News_pg = () => {
   );
 };
 
-export default News_pg;
+export default NewsPg;

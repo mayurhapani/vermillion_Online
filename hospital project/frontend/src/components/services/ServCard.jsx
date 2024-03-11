@@ -2,7 +2,7 @@ import React from "react";
 import Style from "./services.module.css";
 import Button from "../button/Button";
 
-const S_card = ({ img, title, disc }) => {
+const ServCard = ({ img, title, disc }) => {
   return (
     <>
       <div className="col-4">
@@ -17,4 +17,4 @@ const S_card = ({ img, title, disc }) => {
   );
 };
 
-export default S_card;
+export default ServCard;

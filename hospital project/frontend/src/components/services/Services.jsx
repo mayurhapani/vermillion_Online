@@ -1,13 +1,13 @@
 import React from "react";
 import Style from "./services.module.css";
-import Section_title from "../section_title/SectionTitle";
+import SectionTitle from "../section_title/SectionTitle";
 import img1 from "../../assets/images/card_1.png";
 import img2 from "../../assets/images/card_2.png";
 import img3 from "../../assets/images/card_3.png";
 import img4 from "../../assets/images/card_4.png";
 import img5 from "../../assets/images/card_5.png";
 import img6 from "../../assets/images/card_6.png";
-import S_card from "./S_card";
+import ServCard from "./ServCard";
 import Button from "../button/Button";
 
 const serviceCard = [
@@ -30,14 +30,14 @@ const Services = ({ BottomPart, TopPart }) => {
         {TopPart && (
           <>
             <div className="text-center">
-              <Section_title section_title={"what we do"} />
+              <SectionTitle section_title={"what we do"} />
               <h2 className={`${Style.srvs_heading} mt-4 mb-5`}>Services and Specialities</h2>
             </div>
           </>
         )}
-        <div className="row gx-3 gy-3">
+        <div className="row gx-3 gy-3 mb-4">
           {serviceCard.map((data) => (
-            <S_card img={data.img} title={data.title} disc={data.disc} />
+            <ServCard img={data.img} title={data.title} disc={data.disc} />
           ))}
         </div>
         {BottomPart && (

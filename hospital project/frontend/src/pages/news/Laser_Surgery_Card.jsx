@@ -1,7 +1,7 @@
 import React from "react";
 import s from "./news.module.css";
 
-const Laser_Surgery_Card = ({ img, sub_img, disc, dr_name, blog_date }) => {
+const LaserSurgeryCard = ({ img, sub_img, disc, dr_name, blog_date }) => {
   return (
     <>
       <div className="col-4">
@@ -26,4 +26,4 @@ const Laser_Surgery_Card = ({ img, sub_img, disc, dr_name, blog_date }) => {
   );
 };
 
-export default Laser_Surgery_Card;
+export default LaserSurgeryCard;
