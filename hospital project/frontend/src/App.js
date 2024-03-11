@@ -11,10 +11,11 @@ import ServicesSubPage from "./pages/servicesSub/ServicesSubPage";
 import Hospital from "./pages/hospital/Hospital";
 import ContactUs from "./pages/contact_us/Contact_us";
 import { Route, Routes, useLocation } from "react-router-dom";
+import Footer from "./components/footer/Footer";
+import ContactFooter from "./components/footer/ContactFooter";
 
 function App() {
   const { pathname } = useLocation();
-  console.log(pathname);
 
   return (
     <>
@@ -29,13 +30,8 @@ function App() {
         <Route path="/contactUs" element={<ContactUs />} />
       </Routes>
 
-      {/* <Home /> */}
-      {/* <AboutPage /> */}
-      {/* <News_pg /> */}
-      {/* <ServicesPage /> */}
-      {/* <ServicesSubPage /> */}
-      {/* <Hospital /> */}
-      {/* <Contact_us /> */}
+      {pathname != "/contactUs" && <Footer />}
+      {pathname == "/contactUs" && <ContactFooter />}
     </>
   );
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import Styel from "./contact_us.module.css";
 import Hero2 from "../../components/hero2/Hero2";
-import Contact_Footer from "../../components/footer/Contact_Footer";
 
 const para = {
   para: <p>Connect with ASG Eye Hospital - Your Gateway to Exceptional Eye Care and Support</p>,
@@ -102,7 +101,6 @@ const Contact_us = () => {
           </div>
         </div>
       </section>
-      <Contact_Footer />
     </>
   );
 };

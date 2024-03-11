@@ -3,7 +3,6 @@ import Hero2 from "../../components/hero2/Hero2";
 import AboutUs from "../../components/about_us/AboutUs";
 import OurDr from "../../components/ourDr/OurDr";
 import Awards from "../../components/awards/Awards";
-import Footer from "../../components/footer/Footer";
 
 export default function AboutPage() {
   return (
@@ -14,7 +13,6 @@ export default function AboutPage() {
 
       <OurDr />
       <Awards isPara={true} />
-      <Footer />
     </>
   );
 }

@@ -5,7 +5,7 @@ import logo from "../../assets/images/footerLogo.png";
 import MapComponent from "../googlemap/GoogleMap";
 import Contact_card from "../../pages/contact_us/Contact_card";
 
-const Contact_Footer = () => {
+const ContactFooter = () => {
   return (
     <footer className={Style.footerOuter}>
       <div className="container">
@@ -85,4 +85,4 @@ const Contact_Footer = () => {
   );
 };
 
-export default Contact_Footer;
+export default ContactFooter;

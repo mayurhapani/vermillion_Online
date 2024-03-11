@@ -5,17 +5,17 @@ import DrCard from "./DrCard";
 import Button from "../button/Button";
 
 import drDp1 from "../../assets/images/drDp1.png";
-import drDp2 from "../../assets/images/drDp1.png";
-import drDp3 from "../../assets/images/drDp1.png";
-import drDp4 from "../../assets/images/drDp1.png";
-import drDp5 from "../../assets/images/drDp1.png";
-import drDp6 from "../../assets/images/drDp1.png";
-import drDp7 from "../../assets/images/drDp1.png";
-import drDp8 from "../../assets/images/drDp1.png";
-import drDp9 from "../../assets/images/drDp1.png";
-import drDp10 from "../../assets/images/drDp1.png";
-import drDp11 from "../../assets/images/drDp1.png";
-import drDp12 from "../../assets/images/drDp1.png";
+import drDp2 from "../../assets/images/drDp2.png";
+import drDp3 from "../../assets/images/drDp3.png";
+import drDp4 from "../../assets/images/drDp4.png";
+import drDp5 from "../../assets/images/drDp5.png";
+import drDp6 from "../../assets/images/drDp6.png";
+import drDp7 from "../../assets/images/drDp7.png";
+import drDp8 from "../../assets/images/drDp8.png";
+import drDp9 from "../../assets/images/drDp9.png";
+import drDp10 from "../../assets/images/drDp10.png";
+import drDp11 from "../../assets/images/drDp11.png";
+import drDp12 from "../../assets/images/drDp12.png";
 
 const drDetials = [
   {
@@ -91,6 +91,10 @@ export default function OurDr() {
           </div>
           <div className={Style.drCardPOuter}>
             <div className="row">
+              {drDetials.map((dr) => (
+                <DrCard drDetial={dr} />
+              ))}
+              {/* <DrCard />
               <DrCard />
               <DrCard />
               <DrCard />
@@ -101,8 +105,7 @@ export default function OurDr() {
               <DrCard />
               <DrCard />
               <DrCard />
-              <DrCard />
-              <DrCard />
+              <DrCard /> */}
             </div>
 
             <div className="text-center">

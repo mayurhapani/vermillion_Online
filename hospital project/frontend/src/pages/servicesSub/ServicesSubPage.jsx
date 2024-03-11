@@ -6,7 +6,6 @@ import Diabetic3 from "../../components/Diabetic1/Diabetic3";
 import Diabetic4 from "../../components/Diabetic1/Diabetic4";
 import Diabetic5 from "../../components/Diabetic1/Diabetic5";
 import Diabetic6 from "../../components/Diabetic1/Diabetic6";
-import Footer from "../../components/footer/Footer";
 
 import eyeImg from "../../assets/images/eyeImg.png";
 import eyeImg2 from "../../assets/images/eyeImg2.png";
@@ -23,8 +22,6 @@ export default function ServicesSubPage() {
       <Diabetic2 revers={true} img={eyeImg2} />
       <Diabetic5 />
       <Diabetic6 />
-
-      <Footer />
     </>
   );
 }

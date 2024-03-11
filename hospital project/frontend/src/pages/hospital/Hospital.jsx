@@ -2,7 +2,6 @@ import React from "react";
 import s from "./hospital.module.css";
 import Hero2 from "../../components/hero2/Hero2";
 import MapComponent from "../../components/googlemap/GoogleMap";
-import Footer from "../../components/footer/Footer";
 
 import hospital_1 from "../../assets/images/Hospital_1.png";
 import hospital_2 from "../../assets/images/Hospital_2.png";
@@ -141,6 +140,7 @@ const Hospital = () => {
           </div>
         </div>
       </section>
+
       <section>
         <div className="container">
           <div className="row gy-4">
@@ -150,7 +150,6 @@ const Hospital = () => {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 };

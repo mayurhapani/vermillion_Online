@@ -5,7 +5,6 @@ import Hero2 from "../../components/hero2/Hero2";
 import LatestNews from "../../components/latestNews/LatestNews";
 import LaserSurgeryCard from "./Laser_Surgery_Card";
 import MostReadBlogCards from "./Most_read_blog_cards";
-import Footer from "../../components/footer/Footer";
 
 import adv_surgery_1 from "../../assets/images/adv_surgery_1.png";
 import adv_surgery_2 from "../../assets/images/adv_surgery_2.png";
@@ -133,7 +132,6 @@ const NewsPg = () => {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 };
